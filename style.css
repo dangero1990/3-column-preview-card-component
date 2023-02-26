@@ -44,9 +44,6 @@ body {
 
 h1 {
     font-family: "Big Shoulders Display";
-}
-
-h1, button {
     color: var(--Very-light-gray);
 }
 
@@ -57,28 +54,34 @@ p {
     margin-bottom: 3rem !important;
 }
 
+.sedans {
+    background-color: var(--Bright-orange);
+    color: var(--Bright-orange);
+}
+
+.suvs {
+    background-color: var(--Dark-cyan);
+    color: var(--Dark-cyan);
+}
+
+.luxury {
+    background-color: var(--Very-dark-cyan);
+    color: var(--Very-dark-cyan);
+}
+
 button {
-    background: inherit;
+    background: var(--Very-light-gray);
+    color: inherit;
     font-family: "Lexend Deca";
-    border: 3px solid white;
+    border: 3px solid var(--Transparent-white);
     padding: .5rem 1rem;
     border-radius: 2rem;
 }
 
 button:hover {
     cursor: pointer;
-}
-
-.sedans {
-    background-color: var(--Bright-orange);
-}
-
-.suvs {
-    background-color: var(--Dark-cyan);
-}
-
-.luxury {
-    background-color: var(--Very-dark-cyan);
+    background-color: inherit;
+    color: var(--Transparent-white);
 }
 
 .attribution { 

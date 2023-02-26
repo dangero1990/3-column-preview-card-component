@@ -42,11 +42,11 @@ body {
     margin: 1rem;
 }
 
-h2 {
+h1 {
     font-family: "Big Shoulders Display";
 }
 
-h2, button {
+h1, button {
     color: var(--Very-light-gray);
 }
 
@@ -54,6 +54,7 @@ p {
     color: var(--Transparent-white);
     font-family: "Lexend Deca";
     font-size: .75rem;
+    margin-bottom: 3rem !important;
 }
 
 button {
